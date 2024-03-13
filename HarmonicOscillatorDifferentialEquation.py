@@ -1,3 +1,9 @@
+'''
+
+¡Claro! Podemos crear un ejemplo utilizando la ecuación diferencial del oscilador armónico amortiguado y luego visualizar la solución utilizando el módulo matplotlib para graficar. Aquí tienes un ejemplo:
+'''
+
+
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
