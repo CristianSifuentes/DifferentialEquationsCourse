@@ -1,3 +1,9 @@
+'''
+¡Por supuesto! Vamos a crear un ejemplo utilizando la ecuación diferencial de Lotka-Volterra, 
+que describe la dinámica de un sistema presa-depredador. Luego, utilizaremos matplotlib para visualizar 
+la evolución de ambas poblaciones a lo largo del tiempo.
+'''
+
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
@@ -38,3 +44,8 @@ plt.title('Dinámica de Presas y Depredadores (Lotka-Volterra)')
 plt.legend()
 plt.grid(True)
 plt.show()
+
+'''
+Este código modela la interacción entre dos poblaciones, presas y depredadores, 
+utilizando las ecuaciones diferenciales de Lotka-Volterra. Luego, grafica la evolución de ambas poblaciones a lo largo del tiempo.
+'''
