@@ -1,3 +1,9 @@
+'''
+Las ecuaciones de reacción-difusión son utilizadas en diversos campos, 
+como la biología, la química y la física, para modelar la difusión de 
+sustancias químicas y su interacción con reacciones químicas. Un ejemplo 
+clásico es la ecuación de Fisher-KPP, que modela la propagación de una especie biológica en un medio.
+'''
 import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
