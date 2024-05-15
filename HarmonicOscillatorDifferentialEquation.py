@@ -1,6 +1,7 @@
 '''
 
-¡Claro! Podemos crear un ejemplo utilizando la ecuación diferencial del oscilador armónico amortiguado y luego visualizar la solución utilizando el módulo matplotlib para graficar. Aquí tienes un ejemplo:
+¡Claro! Podemos crear un ejemplo utilizando la ecuación diferencial del oscilador armónico amortiguado y 
+luego visualizar la solución utilizando el módulo matplotlib para graficar. Aquí tienes un ejemplo:
 '''
 
 
@@ -40,3 +41,10 @@ plt.title('Solución del Oscilador Amortiguado')
 plt.legend()
 plt.grid(True)
 plt.show()
+
+
+'''
+Este código define la ecuación diferencial del oscilador amortiguado, resuelve la ecuación usando odeint de SciPy, y luego utiliza matplotlib para graficar la posición y la velocidad en función del tiempo.
+
+¿Te gustaría profundizar en algún aspecto de este ejemplo o necesitas más explicaciones sobre alguna parte del código?
+'''
