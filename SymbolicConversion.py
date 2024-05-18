@@ -1,13 +1,12 @@
+import sympy as sp
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+
 # import sympy as sp
 # import numpy as np
 # import matplotlib.pyplot as plt
-
-import sympy as sp
-import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-
+# from mpl_toolkits.mplot3d import Axes3D
 
 
 
@@ -32,7 +31,9 @@ Z = num_func(A, B)
 
 # Crear la gráfica de superficie
 fig = plt.figure(figsize=(10, 6))
-ax = fig.add_subplot(111, projection='3d')
+# ax = fig.add_subplot(111, projection='3d')
+ax = fig.add_subplot(projection='3d')
+
 surf = ax.plot_surface(A, B, Z, cmap='viridis')
 
 # Añadir etiquetas y título
